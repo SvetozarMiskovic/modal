@@ -14,7 +14,3 @@ modalBtn.addEventListener('click', function () {
 closeBtn.addEventListener('click', function () {
   modalOvr.classList.remove('open-modal');
 });
-
-body.addEventListener('click', function () {
-  modalOvr.classList.remove('open-modal');
-});
